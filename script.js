@@ -16,7 +16,7 @@ user_form.addEventListener("submit", (e) => {
             result.style.color = "red";
             result.style.display = "flex";
             result.innerHTML = `You are ${age} years old and currently not of legal age. Please return in ${18 - age} years, when you will meet the legal age requirement.`
-        } else if(user_age.trim() !== "" && age > 18){
+        } else if(user_age.trim() !== "" && age => 18){
             result.style.display = "flex";
              result.innerHTML = `You are ${age} years old and have attained the legal age, making you eligible to vote in any election.`;
         }
