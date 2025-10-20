@@ -21,6 +21,5 @@ user_form.addEventListener("submit", (e) => {
             result.style.display = "flex";
              result.innerHTML = `You are ${age} years old and have attained the legal age, making you eligible to vote in any election.`;
         }
-    user_age = "";
     });
     
